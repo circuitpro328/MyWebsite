@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+      <style>
+        img {
+            display: block;
+            width: 60%;
+            margin: auto;
+             animation: loading 1s linear infinite; 
+        }
+        @keyframes loading{
+            0% { transform: rotate(0deg);}
+
+            100% {transform: rotate(360deg);}
+        }
+        html{
+            background: red;
+        }
+      </style>
+      <script>
+        function redirect(){
+            console.log("fskjlafskjldkjladfskjlafsd")
+            window.location.href = "index.html"
+            
+        }
+        setTimeout(redirect, 5000);
+
+        </script>
+</head>
+<body>
+    <img src="lego-brick.png" />
+</body>

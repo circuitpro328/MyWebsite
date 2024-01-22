@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+  }
+  
+  .nav-links{
+  
+    font-size: 15px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; 
+    background-color: aqua;
+    width: 100%;
+  
+  }
+  
+  .nav-item{
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: aqua;
+    list-style: none;
+  
+  }
+
+  .button{
+    text-align: center;
+    margin: auto;
+    left: 200px;
+  }
+  
+  a{
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
+    border: blue solid 2px;
+    background-color:aqua;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    text-align: center;
+    margin: auto;
+    
+  }
+
+  p{
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
+    border: blue solid 2px;
+    background-color:aqua;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    text-align: center;
+  }
+  
+  
